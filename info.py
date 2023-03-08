@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '23640300'))
 API_HASH = environ.get('API_HASH', 'b43066e201bfc457ad566e623fd74dab')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5888696754:AAFkKQXexHKhFAyABEn0ZSjSvU5GFrhCizI")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6243903054:AAGxLIvpbt_v9oySQG2FZ14HVvfSO2cI6I4")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -32,13 +32,13 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongosh "mongodb+srv://Nikhil_Vishwa7:nikhil_vishwa7@cluster0.dla9mvs.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongosh "mongodb+srv://project1st:project1st@cluster0.is329uw.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001519664150'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'visionmoviez')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001885467323'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '@visionmoviez')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
